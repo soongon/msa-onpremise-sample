@@ -1,13 +1,11 @@
-package com.example.msaonpremisesample;
+package com.example.userservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MsaOnpremiseSampleApplication {
-
+public class UserServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MsaOnpremiseSampleApplication.class, args);
+        SpringApplication.run(UserServiceApplication.class, args);
     }
-
 }
