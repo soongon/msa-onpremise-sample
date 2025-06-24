@@ -1,7 +1,8 @@
 plugins {
-    id 'org.springframework.boot' version '3.5.3'
+    id 'java-library'
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
 }
