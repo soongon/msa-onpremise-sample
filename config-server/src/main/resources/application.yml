@@ -11,3 +11,6 @@ spring:
         git:
           uri: https://github.com/soongon/msa-config-sample.git
           default-label: main
+          # 2025.0.0 개선 설정
+          clone-on-start: true              # 시작 시 즉시 Git 클론
+          force-pull: true                  # 강제 풀로 최신 상태 유지
